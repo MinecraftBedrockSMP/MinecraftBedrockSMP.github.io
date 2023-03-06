@@ -3,3 +3,19 @@ body {
     color: black;
     font-family: Verdana;
   }
+
+  /* Light mode */
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #1b1818;
+      color: white;
+  }
+}
